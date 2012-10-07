@@ -2,7 +2,7 @@ import math
 
 # Below is for the actual question, where it's always a cube
 def getit(a):
-    test = math.factorial(a*2)/(math.factorial(a)*math.factorial(a))    
+    test = math.factorial(a*2)/math.factorial(a)**2
     print test
 
 getit(20)
